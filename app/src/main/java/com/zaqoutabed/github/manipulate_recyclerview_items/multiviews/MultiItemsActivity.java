@@ -35,7 +35,7 @@ public class MultiItemsActivity extends AppCompatActivity {
 
     private void addDataToList() {
 
-        String videoPath = "android.resource://com.zaqoutabed.github.customandroidrecyclerview/"+R.raw.sample;
+        String videoPath = "android.resource://com.zaqoutabed.github.manipulate_recyclerview_items/"+R.raw.sample;
         Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
 
         itemList.add(new TextPostItem("Faraj", R.drawable.avatar,"The standard Lorem Ipsum passage The standard Lorem Ipsum passage"));
