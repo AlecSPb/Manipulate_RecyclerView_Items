@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_marginTop="100dp">
+
+    <Button
+        android:id="@+id/multi_view_type_item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/multi_view_type_item"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_format"
+        android:drawableStart="@drawable/ic_format"
+        android:drawablePadding="16dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/drag_and_drop_item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drag_and_drop_item"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_moved"
+        android:drawableStart="@drawable/ic_moved"
+        android:drawablePadding="16dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/swiped_item_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/swiped_item"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_swap"
+        android:drawableStart="@drawable/ic_swap"
+        android:drawablePadding="16dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

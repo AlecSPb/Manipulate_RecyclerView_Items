@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Manipulate_RecyclerView_Items</string>
+    <string name="the_standard_lorem_ipsum_passage">The standard Lorem Ipsum passage</string>
+    <string name="drag_and_drop_item">Drag and Drop Item</string>
+    <string name="swipe_item">Swipe item</string>
+    <string name="multi_view_type_item">Multi view type item</string>
+    <string name="swiped_item">Swiped item</string>
+    <string name="post_user_image">post user image</string>
+</resources>

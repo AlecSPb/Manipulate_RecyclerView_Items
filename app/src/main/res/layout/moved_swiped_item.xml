@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="8dp"
+    android:layout_marginBottom="4dp"
+    app:contentPadding="2dp">
+   <TextView
+       android:id="@+id/text_view"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="@string/the_standard_lorem_ipsum_passage"
+       android:textSize="18sp"
+       android:textColor="#000000"
+       android:drawableStart="@mipmap/ic_launcher_round"
+       android:drawableLeft="@mipmap/ic_launcher_round"
+       android:drawablePadding="4dp"
+       android:gravity="center"/>
+</android.support.v7.widget.CardView>
