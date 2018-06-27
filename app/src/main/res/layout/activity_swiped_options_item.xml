@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".swiped_options.SwipedOptionsItemActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:id="@+id/edit_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:visibility="gone">
+        <EditText
+            android:id="@+id/text_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+        <ImageView
+            android:id="@+id/save_image_view"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_save"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/the_standard_lorem_ipsum_passage"/>
+        <ImageView
+            android:id="@+id/close_image_view"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_close"
+            android:layout_margin="2dp"
+            android:contentDescription="@string/the_standard_lorem_ipsum_passage"/>
+    </LinearLayout>
+</LinearLayout>

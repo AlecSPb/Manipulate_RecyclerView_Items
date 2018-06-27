@@ -6,4 +6,5 @@
     <string name="multi_view_type_item">Multi view type item</string>
     <string name="swiped_item">Swiped item</string>
     <string name="post_user_image">post user image</string>
+    <string name="swiped_Option_item">swiped Option item</string>
 </resources>

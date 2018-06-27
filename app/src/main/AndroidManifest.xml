@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".swiped.SwipedItemActivity" />
         <activity android:name=".multiviews.MultiItemsActivity" />
-        <activity android:name=".moved.DraggableItemActivity"></activity>
+        <activity android:name=".moved.DraggableItemActivity" />
+        <activity android:name=".swiped_options.SwipedOptionsItemActivity"/>
     </application>
 
 </manifest>
