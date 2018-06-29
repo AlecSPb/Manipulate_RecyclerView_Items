@@ -24,6 +24,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+
         View view = LayoutInflater.from(parent.getContext()).inflate(viewType, parent, false);
         switch (viewType){
             case R.layout.item_image_post:

@@ -19,7 +19,8 @@
         <activity android:name=".swiped.SwipedItemActivity" />
         <activity android:name=".multiviews.MultiItemsActivity" />
         <activity android:name=".moved.DraggableItemActivity" />
-        <activity android:name=".swiped_options.SwipedOptionsItemActivity"/>
+        <activity android:name=".swiped_options.SwipedOptionsItemActivity" />
+        <activity android:name=".contextual_multi_select.ContextualActivity"/>
     </application>
 
 </manifest>
